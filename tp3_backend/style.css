@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(./images/Potrerofondo.jpg);
+}
+ 
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 16%;
+    border-radius: 6px;
+    background-color: #24303c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: larger;
+}
+ 
+input{
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+#enviar{
+    width: 60px;
+}
